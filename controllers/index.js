@@ -3,3 +3,5 @@ exports.getIndex=(req,res,next)=>{
         title:"shop|home"
     })
 }
+
+

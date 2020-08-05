@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+</head>
+<body>
+    <form action="/user/add-article" method="POST">
+        <input type="text" name="name" placeholder="username" required>
+        <input type="email" name="email" placeholder="enter your email" required>
+        <input type="text" name="title" placeholder="title" required>
+        <textarea name="description" placeholder="type your article here" rows="5"></textarea>
+
+          <button>Submit Article</button>
+    </form>
+</body>
+</html>
