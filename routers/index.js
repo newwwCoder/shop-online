@@ -11,4 +11,4 @@ router.get('/', homeController.getIndex)
 
 // >>>>>>> master
 
-module.exports = router;`
+module.exports = router;
