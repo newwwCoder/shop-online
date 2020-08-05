@@ -1,7 +1,14 @@
-const express =require('express');
+const express = require('express');
 const router = express.Router();
-const homeController=require('../controllers/index')
-router.get('/',homeController.getIndex)
-router.use('/user',require('./user'));
+// <<<<<<< ayushi
+// const homeController=require('../controllers/index')
+// router.get('/',homeController.getIndex)
+// router.use('/user',require('./user'));
+// =======
+const homeController = require('../controllers/index')
 
-module.exports=router;
+router.get('/', homeController.getIndex)
+
+// >>>>>>> master
+
+module.exports = router;`
