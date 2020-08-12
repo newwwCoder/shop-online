@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 app.use('/', require('./routers/index.js'));
 app.use('/admin', require('./routers/admin.js'));
-app.use('/user', require('./routers/user.js'));
+app.use('/user', require('./routers/article.js'));
 
 
 app.use('/', router)
